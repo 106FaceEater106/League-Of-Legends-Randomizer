@@ -14,5 +14,6 @@
     "Randomizer for league of legends"
   ],
   "author": "Scott",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
