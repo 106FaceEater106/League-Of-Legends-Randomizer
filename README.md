@@ -15,7 +15,7 @@ Q)Will i get banned on league if i use this?
 A)No, this doesnt motify anything with league nor does it require you to have league. All the names used are from league but are placed into a file in the array folder.
 
 Q)Can I motify it?  
-A)Yes its under MIT, just be sure to say where you got it from or leave the "Original creator - Scott - twitch.tv/lonlygamerx"  
+A)Yes its under MIT, just be sure to say where you got it from and leave the console.log('\x1b[36mOriginal creator - Scott - twitch.tv/lonlygamerx') in it.
 
 Q)What did you use to create this.  
 A)I create this in visual studio code. The coding language i used is Node.js version 12.18.1 (recently update it to 14.4.0)
