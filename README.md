@@ -18,4 +18,4 @@ Q)Can I modify it?
 A)Yes its under MIT, just be sure to say where you got it from and leave the console.log('\x1b[36mOriginal creator - Scott - twitch.tv/lonlygamerx') in it.
 
 Q)What did you use to create this.  
-A)I create this in visual studio code. The coding language i used is Nodejs version 12.18.1 (recently update it to 14.4.0)
+A)I create this in visual studio code. The coding language i used is Nodejs/javascript
