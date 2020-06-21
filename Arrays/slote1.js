@@ -1,0 +1,5 @@
+export var PrecisionSL1 = ["Overheal","Triumph","Presence of Mind"]
+export var DominationSL1 = ["Cheap Shot","Taste of Blood","Sudden Impact"]
+export var SorcerySL1 = ["Nullifying Orb","Manaflow Band","Nimbus Cloak"]
+export var ResolveSL1 = ["Demolish","Font of Life","Shield Bash"]
+export var InspirationSL1 = ["Hextech Flashtraption","Magical Footwear","Perfect Timing"]

@@ -1,0 +1,6 @@
+export var runes0 = ["Precision","Domination","Sorcery","Resolve","Inspiration"]
+export var runes1 = ["Domination","Sorcery","Resolve","Inspiration"]
+export var runes2 = ["Precision","Sorcery","Resolve","Inspiration"]
+export var runes3 = ["Precision","Domination","Resolve","Inspiration"]
+export var runes4 = ["Precision","Domination","Sorcery","Inspiration"]
+export var runes5 = ["Precision","Domination","Sorcery","Resolve",]
