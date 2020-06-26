@@ -1,0 +1,1 @@
+export var champtype = ["Assassin", "Fighter", "Marksman", "Support", "Tank"]
