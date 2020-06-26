@@ -7,7 +7,7 @@
   "main": "main.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node --experimental-modules main.mjs"
+    "start": "node --experimental-modules main.mjs"
   },
   "keywords": [
     "league of legends",
