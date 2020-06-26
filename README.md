@@ -26,7 +26,7 @@ A)First make sure you have all files, then open a console and make sure its open
 Q)Im still having errors and ive followed all the things you have said. What do i do?
 A)Well you can either search the internet for a fix.
 
-Q)Is there anywhere else i can run this where you know it works?
+Q)Is there anywhere else i can run this where you know it works?  
 A)Yes i it a repl.it. Click the button below to run it. Just refresh the website to get generate new stuff
 
 [![Run on Repl.it](https://repl.it/badge/github/LonlyGamerX/League-Of-Legends-Randomizer)](https://repl.it/github/LonlyGamerX/League-Of-Legends-Randomizer)
