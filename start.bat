@@ -1,4 +1,4 @@
 @echo off
 echo Starting Randomizer
-node main.js
+node main.mjs
 pause
