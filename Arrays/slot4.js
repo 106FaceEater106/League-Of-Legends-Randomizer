@@ -21,7 +21,7 @@ export var DominationSL4I = ["Cheap Shot","Taste of Blood","Sudden Impact","Zomb
 export var DominationSL4J = ["Cheap Shot","Taste of Blood","Sudden Impact","Zombie Ward","Ghost Poro","Eyeball Collection","Ravenous Hunter","Ingenious Hunter","Relentless Hunter",]
 
 export var SorcerySL4 = ["Nullifying Orb","Manaflow Band","Nimbus Cloak","Transcendence","Celerity","Absolute Focus","Scorch","Waterwalking","Gathering Storm",]
-export var SorcerySL4A = ["Manaflow Band","Nimbus Cloak",s"Transcendence","Celerity","Absolute Focus","Scorch","Waterwalking","Gathering Storm",]
+export var SorcerySL4A = ["Manaflow Band","Nimbus Cloak","Transcendence","Celerity","Absolute Focus","Scorch","Waterwalking","Gathering Storm",]
 export var SorcerySL4B = ["Nullifying Orb","Nimbus Cloak","Transcendence","Celerity","Absolute Focus","Scorch","Waterwalking","Gathering Storm"]
 export var SorcerySL4C = ["Nullifying Orb","Manaflow Band","Transcendence","Celerity","Absolute Focus","Scorch","Waterwalking","Gathering Storm",""]
 export var SorcerySL4D = ["Nullifying Orb","Manaflow Band","Nimbus Cloak","Celerity","Absolute Focus","Scorch","Waterwalking","Gathering Storm",]
