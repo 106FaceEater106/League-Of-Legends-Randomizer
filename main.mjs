@@ -1,20 +1,30 @@
+//Please note i know slot was misspell so it says slote. This was not in a sense a mistake.
+//At the time of making this i was using a auto correct program that a friend made.
+//He wanted to see how good it did and i just forgot later once i didnt use it anymore to change
+//it to the correct spelling!
+
 //importanting all the files
 import {runes0, runes1, runes2, runes3, runes4, runes5} from './Arrays/runes.js';
 import {PrecisionKS, DominationKS, SorceryKS, ResolveKS, InspirationKS} from './Arrays/keystones.js';
-import {PrecisionSL1, DominationSL1, SorcerySL1, ResolveSL1, InspirationSL1} from './Arrays/slote1.js';
-import {PrecisionSL2, DominationSL2, SorcerySL2, ResolveSL2, InspirationSL2} from './Arrays/slote2.js';
-import {PrecisionSL3, DominationSL3, SorcerySL3, ResolveSL3, InspirationSL3} from './Arrays/slote3.js';
-import {PrecisionSL4, PrecisionSL4A, PrecisionSL4B, PrecisionSL4C, PrecisionSL4D, PrecisionSL4E, PrecisionSL4F, PrecisionSL4G, PrecisionSL4H} from './Arrays/slote4.js';
-import {DominationSL4, DominationSL4A, DominationSL4B, DominationSL4C, DominationSL4D, DominationSL4E, DominationSL4F, DominationSL4G, DominationSL4H, DominationSL4I, DominationSL4J} from './Arrays/slote4.js';
-import {SorcerySL4, SorcerySL4A, SorcerySL4B, SorcerySL4C, SorcerySL4D, SorcerySL4E, SorcerySL4F, SorcerySL4G, SorcerySL4H, SorcerySL4I} from './Arrays/slote4.js';
-import {ResolveSL4, ResolveSL4A, ResolveSL4B, ResolveSL4C, ResolveSL4D, ResolveSL4E, ResolveSL4F, ResolveSL4G, ResolveSL4H, ResolveSL4I} from './Arrays/slote4.js';
-import {InspirationSL4, InspirationSL4A, InspirationSL4B, InspirationSL4C, InspirationSL4D, InspirationSL4E, InspirationSL4F, InspirationSL4G, InspirationSL4H} from './Arrays/slote4.js';
+import {PrecisionSL1, DominationSL1, SorcerySL1, ResolveSL1, InspirationSL1} from './Arrays/slot1.js';
+import {PrecisionSL2, DominationSL2, SorcerySL2, ResolveSL2, InspirationSL2} from './Arrays/slot2.js';
+import {PrecisionSL3, DominationSL3, SorcerySL3, ResolveSL3, InspirationSL3} from './Arrays/slot3.js';
+import {PrecisionSL4, PrecisionSL4A, PrecisionSL4B, PrecisionSL4C, PrecisionSL4D, PrecisionSL4E, PrecisionSL4F, PrecisionSL4G, PrecisionSL4H} from './Arrays/slot4.js';
+import {DominationSL4, DominationSL4A, DominationSL4B, DominationSL4C, DominationSL4D, DominationSL4E, DominationSL4F, DominationSL4G, DominationSL4H, DominationSL4I, DominationSL4J} from './Arrays/slot4.js';
+import {SorcerySL4, SorcerySL4A, SorcerySL4B, SorcerySL4C, SorcerySL4D, SorcerySL4E, SorcerySL4F, SorcerySL4G, SorcerySL4H, SorcerySL4I} from './Arrays/slot4.js';
+import {ResolveSL4, ResolveSL4A, ResolveSL4B, ResolveSL4C, ResolveSL4D, ResolveSL4E, ResolveSL4F, ResolveSL4G, ResolveSL4H, ResolveSL4I} from './Arrays/slot4.js';
+import {InspirationSL4, InspirationSL4A, InspirationSL4B, InspirationSL4C, InspirationSL4D, InspirationSL4E, InspirationSL4F, InspirationSL4G, InspirationSL4H} from './Arrays/slot4.js';
 import {Assassin, Fighter, Marksman, Support, Tank} from './Arrays/champions.js'
 import {champtype} from './Arrays/championType.js'
+import {miniSlot1, miniSlot2, miniSlot3} from './Arrays/minislot.js'
+
 
 //Generating the first rune and champion
 const RandomRunes1 = runes0[Math.floor(Math.random() * runes0.length)];
 const FirstChampionType = champtype[Math.floor(Math.random() * champtype.length)];
+const miniS1 = miniSlot1[Math.floor(Math.random() * miniSlot1.length)];
+const miniS2 = miniSlot2[Math.floor(Math.random() * miniSlot2.length)];
+const miniS3 = miniSlot3[Math.floor(Math.random() * miniSlot3.length)];
 
 //Rune for secondary
 if (RandomRunes1 === "Precision") {
@@ -42,7 +52,7 @@ if (RandomRunes1 === "Precision") {
   var RandomKeystone = InspirationKS[Math.floor(Math.random() * InspirationKS.length)];
 }
 
-//Slote 1
+//Slot 1
 if (RandomRunes1 === "Precision") {
   var RandomSlote1 = PrecisionSL1[Math.floor(Math.random() * PrecisionSL1.length)];
 } else if (RandomRunes1 === "Domination") {
@@ -55,7 +65,7 @@ if (RandomRunes1 === "Precision") {
   var RandomSlote1 = InspirationSL1[Math.floor(Math.random() * InspirationSL1.length)];
 }
 
-//Slote 2
+//Slot 2
 if (RandomRunes1 === "Precision") {
   var RandomSlote2 = PrecisionSL2[Math.floor(Math.random() * PrecisionSL2.length)];
 } else if (RandomRunes1 === "Domination") {
@@ -68,7 +78,7 @@ if (RandomRunes1 === "Precision") {
   var RandomSlote2 = InspirationSL2[Math.floor(Math.random() * InspirationSL2.length)];
 }
 
-//Slote 3
+//Slot 3
 if (RandomRunes1 === "Precision") {
   var RandomSlote3 = PrecisionSL3[Math.floor(Math.random() * PrecisionSL3.length)];
 } else if (RandomRunes1 === "Domination") {
@@ -81,7 +91,7 @@ if (RandomRunes1 === "Precision") {
   var RandomSlote3 = InspirationSL3[Math.floor(Math.random() * InspirationSL3.length)];
 }
 
-//Slote 4 P1
+//Slot 4 P1
 if (RandomRunes2 === "Precision") {
   var RandomSlote4 = PrecisionSL4[Math.floor(Math.random() * PrecisionSL4.length)];
 } else if (RandomRunes2 === "Domination") {
@@ -94,7 +104,7 @@ if (RandomRunes2 === "Precision") {
   var RandomSlote4 = InspirationSL4[Math.floor(Math.random() * InspirationSL4.length)];
 }
 
-//All the runes part of slote 4
+//All the runes part of slot 4
 if (RandomSlote4 === "Overheal") {
   var RandomSlote5 = PrecisionSL4A[Math.floor(Math.random() * PrecisionSL4A.length)];
 } else if (RandomSlote4 === "Triumph") {
@@ -245,5 +255,9 @@ console.log('\x1b[32mAnd for your secondary:');
 console.log(`\x1b[31m\x1b[4mRune: ${RandomRunes2}`);
 console.log(`\x1b[31m\x1b[4mSlote 1: ${RandomSlote4}`);
 console.log(`\x1b[31m\x1b[4mSlote 2: ${RandomSlote5}`);
+console.log('\x1b[32mAnd for your mini slots:')
+console.log(`\x1b[31m\x1b[4mMini slot 1: ${miniS1}`)
+console.log(`\x1b[31m\x1b[4mMini slot 2: ${miniS2}`)
+console.log(`\x1b[31m\x1b[4mMini slot 3: ${miniS3}`)
 //Resets console back to normal
 console.log('\x1b[0m');
