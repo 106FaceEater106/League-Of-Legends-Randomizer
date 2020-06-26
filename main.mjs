@@ -242,8 +242,8 @@ if (FirstChampionType === "Assassin") {
 // Logging everything for the player
 console.log('\x1b[36mOriginal creator - Scott - twitch.tv/lonlygamerx');
 console.log('');
-console.log(`\x1b[32mYour Champion type is: \x1b[31m\x1b[4m${FirstChampionType}\x1b[0m`)
-console.log(`\x1b[32mAnd Champion is: \x1b[31m\x1b[4m${championGot}\x1b[0m`)
+console.log(`\x1b[32mChampion type: \x1b[31m\x1b[4m${FirstChampionType}\x1b[0m`)
+console.log(`\x1b[32mChampion: \x1b[31m\x1b[4m${championGot}\x1b[0m`)
 console.log('');
 console.log('\x1b[32mYour builds is:');
 console.log(`\x1b[31m\x1b[4mRune: ${RandomRunes1}`);
