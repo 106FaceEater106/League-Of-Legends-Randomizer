@@ -26,6 +26,11 @@ const miniS1 = miniSlot1[Math.floor(Math.random() * miniSlot1.length)];
 const miniS2 = miniSlot2[Math.floor(Math.random() * miniSlot2.length)];
 const miniS3 = miniSlot3[Math.floor(Math.random() * miniSlot3.length)];
 const items0 = items1[Math.floor(Math.random() * items1.length)]
+const items2 = items1[Math.floor(Math.random() * items1.length)]
+const items3 = items1[Math.floor(Math.random() * items1.length)]
+const items4 = items1[Math.floor(Math.random() * items1.length)]
+const items5 = items1[Math.floor(Math.random() * items1.length)]
+const items6 = items1[Math.floor(Math.random() * items1.length)]
 
 //Rune for secondary
 if (RandomRunes1 === "Precision") {
@@ -258,5 +263,12 @@ console.log('\x1b[32mMini slots:')
 console.log(`\x1b[31m\x1b[4mMini slot 1: ${miniS1}`)
 console.log(`\x1b[31m\x1b[4mMini slot 2: ${miniS2}`)
 console.log(`\x1b[31m\x1b[4mMini slot 3: ${miniS3}`)
+console.log('\x1b[32mYour Items build:')
+console.log(`\x1b[31m\x1b[4mItem 1: ${items0}`)
+console.log(`\x1b[31m\x1b[4mItem 2: ${items2}`)
+console.log(`\x1b[31m\x1b[4mItem 3: ${items3}`)
+console.log(`\x1b[31m\x1b[4mItem 4: ${items4}`)
+console.log(`\x1b[31m\x1b[4mItem 5: ${items5}`)
+console.log(`\x1b[31m\x1b[4mItem 6: ${items6}`)
 //Resets console back to normal
 console.log('\x1b[0m');
