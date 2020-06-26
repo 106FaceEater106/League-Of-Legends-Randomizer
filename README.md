@@ -4,7 +4,7 @@ How to use it.
 Just run the start.bat file and it should give you a rune page randomizer. If it doesnt and gives you some sort of error, make sure you have downloaded at node.js version 12.18.1 or higher (https://nodejs.org/en/)
 
 Note this was made during season 10. Rune pages may change in the future and if it does then this may be irrelevant to you.
-There is also a small chance your second rune slote 1 and 2 may be picked from the same row and if it happens just use the first one and then you can either choose yourself or rerun it until you get another one for slote 2.
+There is also a small chance your second rune slote 1 and 2 may be picked from the same row and if it happens just use the first one and then you can either choose yourself or rerun it until you get another one for slote 2. Also this includes all champions made in season 10 August 1st or before. Any champion made after that date may not be included!
 
 FAQ
 
