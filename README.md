@@ -1,4 +1,4 @@
-# League Of Legends Randomizer Rune Page
+# League Of Legends Randomizer
 How to use it.
 
 Just run the start.bat file and it should give you a rune page randomizer. If it doesnt and gives you some sort of error, make sure you have downloaded at node.js version 12.18.1 or higher (https://nodejs.org/en/)
