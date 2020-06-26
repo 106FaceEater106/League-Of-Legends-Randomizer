@@ -1,6 +1,10 @@
 # League Of Legends Randomizer
 How to use it.
 
+Repl.it:
+Run the run command and it should work.
+
+Downloaded:
 Just run the start.bat file and it should give you a rune page randomizer. If it doesnt and gives you some sort of error, make sure you have downloaded at node.js version 12.18.1 or higher (https://nodejs.org/en/)
 
 Note this was made during season 10. Rune pages may change in the future and if it does then this may be irrelevant to you.
