@@ -19,3 +19,6 @@ A)Yes its under MIT, just be sure to say where you got it from and leave the con
 
 Q)What did you use to create this.  
 A)I create this in visual studio code. The coding language i used is Nodejs/javascript
+
+Q)When i run it, it gives me errors.
+A)First make sure you have all files, then open a console and make sure its open in the directory of the files and do npm install. Also make sure you have node.js install.
