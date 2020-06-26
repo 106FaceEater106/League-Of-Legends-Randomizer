@@ -17,7 +17,7 @@ import {InspirationSL4, InspirationSL4A, InspirationSL4B, InspirationSL4C, Inspi
 import {Assassin, Fighter, Marksman, Support, Tank} from './Arrays/champions.js'
 import {champtype} from './Arrays/championType.js'
 import {miniSlot1, miniSlot2, miniSlot3} from './Arrays/minislot.js'
-
+import {items1} from './Arrays/items.js'
 
 //Generating the first rune and champion
 const RandomRunes1 = runes0[Math.floor(Math.random() * runes0.length)];
@@ -25,6 +25,7 @@ const FirstChampionType = champtype[Math.floor(Math.random() * champtype.length)
 const miniS1 = miniSlot1[Math.floor(Math.random() * miniSlot1.length)];
 const miniS2 = miniSlot2[Math.floor(Math.random() * miniSlot2.length)];
 const miniS3 = miniSlot3[Math.floor(Math.random() * miniSlot3.length)];
+const items0 = items1[Math.floor(Math.random() * items1.length)]
 
 //Rune for secondary
 if (RandomRunes1 === "Precision") {
@@ -234,8 +235,6 @@ if (FirstChampionType === "Assassin") {
 // BgMagenta = "\x1b[45m"
 // BgCyan = "\x1b[46m"
 // BgWhite = "\x1b[47m"
-
-
 
 
 
