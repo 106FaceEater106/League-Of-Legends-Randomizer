@@ -24,8 +24,9 @@ Q)When i run it, it gives me errors. What do i do?
 A)First make sure you have all files, then open a console and make sure its open in the directory of the files and do npm install. Also make sure you have node.js install.
 
 Q)Im still having errors and ive followed all the things you have said. What do i do?
-A)Well you can either search the internet for a fix or go to the repl.it website where ive also posted this.
+A)Well you can either search the internet for a fix.
 
-How to run it on the repl.it website.
-Repl.it League Randomizer project:
-To start make sure you have an open shell and not in node. The way to check this is normally the shell will have nothing and node shell with have node (version) at the start of it. To open a shell press F1 and they type Open Shell and then it should open a shell below the node shell. Once in their just run this command 'npm run start' and you will be good to go.
+Q)Is there anywhere else i can run this where you know it works?
+A)Yes i it a repl.it. Click the button below to run it. Just refresh the website to get generate new stuff
+
+[![Run on Repl.it](https://repl.it/badge/github/LonlyGamerX/League-Of-Legends-Randomizer)](https://repl.it/github/LonlyGamerX/League-Of-Legends-Randomizer)
