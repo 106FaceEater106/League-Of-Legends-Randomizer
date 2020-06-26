@@ -1,5 +1,0 @@
-export var PrecisionSL2 = ["Legend: Alacrity","Presence of Mind","Legend: Bloodline"]
-export var DominationSL2 = ["Zombie Ward","Ghost Poro","Eyeball Collection"]
-export var SorcerySL2 = ["Transcendence","Celerity","Absolute Focus"]
-export var ResolveSL2 = ["Conditioning","Second Wind","Bone Plating"]
-export var InspirationSL2 = ["Future’s Market","Minion Dematerializer","Biscuit Delivery"]
