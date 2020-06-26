@@ -1,5 +1,0 @@
-export var PrecisionSL3 = ["Coup de Grace","Cut Down","Last Stand","Your choice"]
-export var DominationSL3 = ["Ravenous Hunter","Ingenious Hunter","Relentless Hunter","Ultimate Hunter"]
-export var SorcerySL3 = ["Scorch","Waterwalking","Gathering Storm","Your choice"]
-export var ResolveSL3 = ["Overgrowth","Revitalize","Unflinching","Your choice"]
-export var InspirationSL3 = ["Cosmic Insight","Approach Velocity","Time Warp Tonic","Your choice"]
