@@ -251,11 +251,11 @@ console.log(`\x1b[31m\x1b[4mKeystone: ${RandomKeystone}`);
 console.log(`\x1b[31m\x1b[4mSlote 1: ${RandomSlote1}`);
 console.log(`\x1b[31m\x1b[4mSlote 2: ${RandomSlote2}`);
 console.log(`\x1b[31m\x1b[4mSlote 3: ${RandomSlote3}`);
-console.log('\x1b[32mAnd for your secondary:');
+console.log('\x1b[32mFor your secondary:');
 console.log(`\x1b[31m\x1b[4mRune: ${RandomRunes2}`);
 console.log(`\x1b[31m\x1b[4mSlote 1: ${RandomSlote4}`);
 console.log(`\x1b[31m\x1b[4mSlote 2: ${RandomSlote5}`);
-console.log('\x1b[32mAnd for your mini slots:')
+console.log('\x1b[32mMini slots:')
 console.log(`\x1b[31m\x1b[4mMini slot 1: ${miniS1}`)
 console.log(`\x1b[31m\x1b[4mMini slot 2: ${miniS2}`)
 console.log(`\x1b[31m\x1b[4mMini slot 3: ${miniS3}`)
