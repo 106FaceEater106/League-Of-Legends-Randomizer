@@ -9,7 +9,7 @@ There is also a small chance your second rune slote 1 and 2 may be picked from t
 FAQ
 
 Q)What does it do?  
-A)It basically create a random rune page for you for league of legends.
+A)It basically create a random rune page for you and picks a random champion for league of legends.
 
 Q)Will i get banned on league if i use this?  
 A)No, this doesnt modify anythingon league nor does it require you to have league. All the names used are from League.
