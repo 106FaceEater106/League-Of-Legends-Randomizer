@@ -2,7 +2,7 @@
 How to use it.
 
 Repl.it:
-Run the run command and it should work.
+Press the green arrow it should work if you on the post site else it should auto run on website.
 
 Downloaded:
 Just run the start.bat file and it should give you a rune page randomizer. If it doesnt and gives you some sort of error, make sure you have downloaded at node.js version 12.18.1 or higher (https://nodejs.org/en/)
@@ -29,6 +29,6 @@ A)First make sure you have all files, then open a console and make sure its open
 Q)Im still having errors and ive followed all the things you have said. What do i do?
 A)Well you can either search the internet for a fix.
 
-A)Yes i it a repl.it. Just follow the link below. Just press the green arrow to get generate.
+A)Yes i it a repl.it. Just follow the link below.
 
-Link Repl.it: https://repl.it/talk/share/League-of-legends-Randomizer/43277
+Link Repl.it: https://League-Of-Legends-Randomizer.scottmaxyoda1.repl.run
