@@ -253,30 +253,34 @@ console.log('');
 console.log(`\x1b[32mChampion type: \x1b[31m\x1b[4m${FirstChampionType}\x1b[0m`)
 console.log(`\x1b[32mChampion: \x1b[31m\x1b[4m${championGot}\x1b[0m`)
 console.log('');
-console.log('\x1b[32mYour builds is:');
-console.log(`\x1b[31m\x1b[4mRune: ${RandomRunes1}`);
-console.log(`\x1b[31m\x1b[4mKeystone: ${RandomKeystone}`);
-console.log(`\x1b[31m\x1b[4mSlot 1: ${Randomslot1}`);
-console.log(`\x1b[31m\x1b[4mSlot 2: ${Randomslot2}`);
-console.log(`\x1b[31m\x1b[4mSlot 3: ${Randomslot3}`);
-console.log('\x1b[32mFor your secondary:');
-console.log(`\x1b[31m\x1b[4mRune: ${RandomRunes2}`);
-console.log(`\x1b[31m\x1b[4mSlot 1: ${Randomslot4}`);
-console.log(`\x1b[31m\x1b[4mSlot 2: ${Randomslot5}`);
-console.log('\x1b[32mMini slots:')
-console.log(`\x1b[31m\x1b[4mMini slot 1: ${miniS1}`)
-console.log(`\x1b[31m\x1b[4mMini slot 2: ${miniS2}`)
-console.log(`\x1b[31m\x1b[4mMini slot 3: ${miniS3}`)
-console.log('\x1b[32mYour Items build:')
-console.log(`\x1b[31m\x1b[4mItem 1: ${items0}`)
-console.log(`\x1b[31m\x1b[4mItem 2: ${items2}`)
-console.log(`\x1b[31m\x1b[4mItem 3: ${items3}`)
-console.log(`\x1b[31m\x1b[4mItem 4: ${items4}`)
-console.log(`\x1b[31m\x1b[4mItem 5: ${items5}`)
-console.log(`\x1b[31m\x1b[4mItem 6: ${items6}`)
-console.log('\x1b[32mYour Summoner Spells:')
-console.log(`\x1b[31m\x1b[4mSpell 1: ${SummerSpells1}`)
-console.log(`\x1b[31m\x1b[4mSpell 2: ${SummerSpells2}`)
+console.log('\x1b[37mYour builds is:\x1b[0m');
+console.log(`\x1b[32mRune: \x1b[31m\x1b[4m${RandomRunes1}\x1b[0m`);
+console.log(`\x1b[32mKeystone: \x1b[31m\x1b[4m${RandomKeystone}\x1b[0m`);
+console.log(`\x1b[32mSlot 1: \x1b[31m\x1b[4m${Randomslot1}\x1b[0m`);
+console.log(`\x1b[32mSlot 2: \x1b[31m\x1b[4m${Randomslot2}\x1b[0m`);
+console.log(`\x1b[32mSlot 3: \x1b[31m\x1b[4m${Randomslot3}\x1b[0m`);
+console.log('');
+console.log('\x1b[37mFor your secondary:\x1b[0m');
+console.log(`\x1b[32mRune: \x1b[31m\x1b[4m${RandomRunes2}\x1b[0m`);
+console.log(`\x1b[32mSlot 1: \x1b[31m\x1b[4m${Randomslot4}\x1b[0m`);
+console.log(`\x1b[32mSlot 2: \x1b[31m\x1b[4m${Randomslot5}\x1b[0m`);
+console.log('');
+console.log('\x1b[37mMini slots:\x1b[0m')
+console.log(`\x1b[32mMini slot 1: \x1b[31m\x1b[4m${miniS1}\x1b[0m`)
+console.log(`\x1b[32mMini slot 2: \x1b[31m\x1b[4m${miniS2}\x1b[0m`)
+console.log(`\x1b[32mMini slot 3: \x1b[31m\x1b[4m${miniS3}\x1b[0m`)
+console.log('');
+console.log('\x1b[37mItems build:\x1b[0m')
+console.log(`\x1b[32mItem 1: \x1b[31m\x1b[4m${items0}\x1b[0m`)
+console.log(`\x1b[32mItem 2: \x1b[31m\x1b[4m${items2}\x1b[0m`)
+console.log(`\x1b[32mItem 3: \x1b[31m\x1b[4m${items3}\x1b[0m`)
+console.log(`\x1b[32mItem 4: \x1b[31m\x1b[4m${items4}\x1b[0m`)
+console.log(`\x1b[32mItem 5: \x1b[31m\x1b[4m${items5}\x1b[0m`)
+console.log(`\x1b[32mItem 6: \x1b[31m\x1b[4m${items6}\x1b[0m`)
+console.log('');
+console.log('\x1b[37mSummoner Spells:\x1b[0m')
+console.log(`\x1b[32mSpell 1: \x1b[31m\x1b[4m${SummerSpells1}\x1b[0m`)
+console.log(`\x1b[32mSpell 2: \x1b[31m\x1b[4m${SummerSpells2}\x1b[0m`)
 
 //Resets console back to normal
 console.log('\x1b[0m');
