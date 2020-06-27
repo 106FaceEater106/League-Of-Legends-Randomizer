@@ -39,182 +39,253 @@ const SummerSpells2 = SumSpell[Math.floor(Math.random() * SumSpell.length)]
 //Rune for secondary
 if (RandomRunes1 === "Precision") {
   var RandomRunes2 = runes1[Math.floor(Math.random() * runes1.length)];
-} else if (RandomRunes1 === "Domination") {
+} 
+else if (RandomRunes1 === "Domination") {
   var RandomRunes2 = runes2[Math.floor(Math.random() * runes2.length)];
-} else if (RandomRunes1 === "Sorcery") {
+} 
+else if (RandomRunes1 === "Sorcery") {
   var RandomRunes2 = runes3[Math.floor(Math.random() * runes3.length)];
-} else if (RandomRunes1 === "Resolve") {
+} 
+else if (RandomRunes1 === "Resolve") {
   var RandomRunes2 = runes4[Math.floor(Math.random() * runes4.length)];
-} else if (RandomRunes1 === "Inspiration") {
+} 
+else if (RandomRunes1 === "Inspiration") {
   var RandomRunes2 = runes5[Math.floor(Math.random() * runes5.length)];
 }
 
 //Keystone
 if (RandomRunes1 === "Precision") {
   var RandomKeystone = PrecisionKS[Math.floor(Math.random() * PrecisionKS.length)];
-} else if (RandomRunes1 === "Domination") {
+} 
+else if (RandomRunes1 === "Domination") {
   var RandomKeystone = DominationKS[Math.floor(Math.random() * DominationKS.length)];
-} else if (RandomRunes1 === "Sorcery") {
+} 
+else if (RandomRunes1 === "Sorcery") {
   var RandomKeystone = SorceryKS[Math.floor(Math.random() * SorceryKS.length)];
-} else if (RandomRunes1 === "Resolve") {
+} 
+else if (RandomRunes1 === "Resolve") {
   var RandomKeystone = ResolveKS[Math.floor(Math.random() * ResolveKS.length)];
-} else if (RandomRunes1 === "Inspiration") {
+} 
+else if (RandomRunes1 === "Inspiration") {
   var RandomKeystone = InspirationKS[Math.floor(Math.random() * InspirationKS.length)];
 }
 
 //Slot 1
 if (RandomRunes1 === "Precision") {
   var Randomslot1 = PrecisionSL1[Math.floor(Math.random() * PrecisionSL1.length)];
-} else if (RandomRunes1 === "Domination") {
+} 
+else if (RandomRunes1 === "Domination") {
   var Randomslot1 = DominationSL1[Math.floor(Math.random() * DominationSL1.length)];
-} else if (RandomRunes1 === "Sorcery") {
+} 
+else if (RandomRunes1 === "Sorcery") {
   var Randomslot1 = SorcerySL1[Math.floor(Math.random() * SorcerySL1.length)];
-} else if (RandomRunes1 === "Resolve") {
+} 
+else if (RandomRunes1 === "Resolve") {
   var Randomslot1 = ResolveSL1[Math.floor(Math.random() * ResolveSL1.length)];
-} else if (RandomRunes1 === "Inspiration") {
+} 
+else if (RandomRunes1 === "Inspiration") {
   var Randomslot1 = InspirationSL1[Math.floor(Math.random() * InspirationSL1.length)];
 }
 
 //Slot 2
 if (RandomRunes1 === "Precision") {
   var Randomslot2 = PrecisionSL2[Math.floor(Math.random() * PrecisionSL2.length)];
-} else if (RandomRunes1 === "Domination") {
+} 
+else if (RandomRunes1 === "Domination") {
   var Randomslot2 = DominationSL2[Math.floor(Math.random() * DominationSL2.length)];
-} else if (RandomRunes1 === "Sorcery") {
+} 
+else if (RandomRunes1 === "Sorcery") {
   var Randomslot2 = SorcerySL2[Math.floor(Math.random() * SorcerySL2.length)];
-} else if (RandomRunes1 === "Resolve") {
+} 
+else if (RandomRunes1 === "Resolve") {
   var Randomslot2 = ResolveSL2[Math.floor(Math.random() * ResolveSL2.length)];
-} else if (RandomRunes1 === "Inspiration") {
+} 
+else if (RandomRunes1 === "Inspiration") {
   var Randomslot2 = InspirationSL2[Math.floor(Math.random() * InspirationSL2.length)];
 }
 
 //Slot 3
 if (RandomRunes1 === "Precision") {
   var Randomslot3 = PrecisionSL3[Math.floor(Math.random() * PrecisionSL3.length)];
-} else if (RandomRunes1 === "Domination") {
+} 
+else if (RandomRunes1 === "Domination") {
   var Randomslot3 = DominationSL3[Math.floor(Math.random() * DominationSL3.length)];
-} else if (RandomRunes1 === "Sorcery") {
+} 
+else if (RandomRunes1 === "Sorcery") {
   var Randomslot3 = SorcerySL3[Math.floor(Math.random() * SorcerySL3.length)];
-} else if (RandomRunes1 === "Resolve") {
+} 
+else if (RandomRunes1 === "Resolve") {
   var Randomslot3 = ResolveSL3[Math.floor(Math.random() * ResolveSL3.length)];
-} else if (RandomRunes1 === "Inspiration") {
+} 
+else if (RandomRunes1 === "Inspiration") {
   var Randomslot3 = InspirationSL3[Math.floor(Math.random() * InspirationSL3.length)];
 }
 
 //Slot 4 P1
 if (RandomRunes2 === "Precision") {
   var Randomslot4 = PrecisionSL4[Math.floor(Math.random() * PrecisionSL4.length)];
-} else if (RandomRunes2 === "Domination") {
+} 
+else if (RandomRunes2 === "Domination") {
   var Randomslot4 = DominationSL4[Math.floor(Math.random() * DominationSL4.length)];
-} else if (RandomRunes2 === "Sorcery") {
+} 
+else if (RandomRunes2 === "Sorcery") {
   var Randomslot4 = SorcerySL4[Math.floor(Math.random() * SorcerySL4.length)];
-} else if (RandomRunes2 === "Resolve") {
+} 
+else if (RandomRunes2 === "Resolve") {
   var Randomslot4 = ResolveSL4[Math.floor(Math.random() * ResolveSL4.length)];
-} else if (RandomRunes2 === "Inspiration") {
+} 
+else if (RandomRunes2 === "Inspiration") {
   var Randomslot4 = InspirationSL4[Math.floor(Math.random() * InspirationSL4.length)];
 }
 
 //All the runes part of slot 4
 if (Randomslot4 === "Overheal") {
   var Randomslot5 = PrecisionSL4A[Math.floor(Math.random() * PrecisionSL4A.length)];
-} else if (Randomslot4 === "Triumph") {
+} 
+else if (Randomslot4 === "Triumph") {
   var Randomslot5 = PrecisionSL4B[Math.floor(Math.random() * PrecisionSL4B.length)];
-} else if (Randomslot4 === "Presence of Mind") {
+} 
+else if (Randomslot4 === "Presence of Mind") {
   var Randomslot5 = PrecisionSL4C[Math.floor(Math.random() * PrecisionSL4C.length)];  
-}else if (Randomslot4 === "Legend: Alacrity") {
+}
+else if (Randomslot4 === "Legend: Alacrity") {
   var Randomslot5 = PrecisionSL4D[Math.floor(Math.random() * PrecisionSL4D.length)];
-}else if (Randomslot4 === "Legend: Bloodline") {
+}
+else if (Randomslot4 === "Legend: Bloodline") {
   var Randomslot5 = PrecisionSL4E[Math.floor(Math.random() * PrecisionSL4E.length)];
-}else if (Randomslot4 === "Coup de Grace") {
+}
+else if (Randomslot4 === "Coup de Grace") {
   var Randomslot5 = PrecisionSL4F[Math.floor(Math.random() * PrecisionSL4F.length)];
-}else if (Randomslot4 === "Cut Down") {
+}
+else if (Randomslot4 === "Cut Down") {
   var Randomslot5 = PrecisionSL4G[Math.floor(Math.random() * PrecisionSL4G.length)];
-}else if (Randomslot4 === "Last Stand") {
+}
+else if (Randomslot4 === "Last Stand") {
   var Randomslot5 = PrecisionSL4H[Math.floor(Math.random() * PrecisionSL4H.length)];
-}else if (Randomslot4 === "Cheap Shot") {
+}
+else if (Randomslot4 === "Cheap Shot") {
   var Randomslot5 = DominationSL4A[Math.floor(Math.random() * DominationSL4A.length)];
-}else if (Randomslot4 === "Taste of Blood") {
+}
+else if (Randomslot4 === "Taste of Blood") {
   var Randomslot5 = DominationSL4B[Math.floor(Math.random() * DominationSL4B.length)];
-}else if (Randomslot4 === "Sudden Impact") {
+}
+else if (Randomslot4 === "Sudden Impact") {
   var Randomslot5 =  DominationSL4C[Math.floor(Math.random() * DominationSL4C.length)];
-}else if (Randomslot4 === "Zombie Ward") {
+}
+else if (Randomslot4 === "Zombie Ward") {
   var Randomslot5 =  DominationSL4D[Math.floor(Math.random() * DominationSL4D.length)];
-}else if (Randomslot4 === "Ghost Poro") {
+}
+else if (Randomslot4 === "Ghost Poro") {
   var Randomslot5 =  DominationSL4E[Math.floor(Math.random() * DominationSL4E.length)];
-}else if (Randomslot4 === "Eyeball Collection") {
+}
+else if (Randomslot4 === "Eyeball Collection") {
   var Randomslot5 = DominationSL4F[Math.floor(Math.random() * DominationSL4F.length)];
-}else if (Randomslot4 === "Ravenous Hunter") {
+}
+else if (Randomslot4 === "Ravenous Hunter") {
   var Randomslot5 = DominationSL4G[Math.floor(Math.random() * DominationSL4G.length)];
-}else if (Randomslot4 === "Ingenious Hunter") {
+}
+else if (Randomslot4 === "Ingenious Hunter") {
   var Randomslot5 = DominationSL4H[Math.floor(Math.random() * DominationSL4H.length)];
-}else if (Randomslot4 === "Relentless Hunter") {
+}
+else if (Randomslot4 === "Relentless Hunter") {
   var Randomslot5 = DominationSL4I[Math.floor(Math.random() * DominationSL4I.length)];
-}else if (Randomslot4 === "Ultimate Hunter") {
+}
+else if (Randomslot4 === "Ultimate Hunter") {
   var Randomslot5 = DominationSL4J[Math.floor(Math.random() * DominationSL4J.length)];
-}else if (Randomslot4 === "Nullifying Orb") {
+}
+else if (Randomslot4 === "Nullifying Orb") {
   var Randomslot5 = SorcerySL4A[Math.floor(Math.random() * SorcerySL4A.length)];
-}else if (Randomslot4 === "Manaflow Band") {
+}
+else if (Randomslot4 === "Manaflow Band") {
   var Randomslot5 = SorcerySL4B[Math.floor(Math.random() * SorcerySL4B.length)];
-}else if (Randomslot4 === "Nimbus Cloak") {
+}
+else if (Randomslot4 === "Nimbus Cloak") {
   var Randomslot5 = SorcerySL4C[Math.floor(Math.random() * SorcerySL4C.length)];
-}else if (Randomslot4 === "Transcendence") {
+}
+else if (Randomslot4 === "Transcendence") {
   var Randomslot5 = SorcerySL4D[Math.floor(Math.random() * SorcerySL4D.length)];
-}else if (Randomslot4 === "Celerity") {
+}
+else if (Randomslot4 === "Celerity") {
   var Randomslot5 = SorcerySL4E[Math.floor(Math.random() * SorcerySL4E.length)];
-}else if (Randomslot4 === "Absolute Focus") {
+}
+else if (Randomslot4 === "Absolute Focus") {
   var Randomslot5 = SorcerySL4F[Math.floor(Math.random() * SorcerySL4F.length)];
-}else if (Randomslot4 === "Scorch") {
+}
+else if (Randomslot4 === "Scorch") {
   var Randomslot5 = SorcerySL4G[Math.floor(Math.random() * SorcerySL4G.length)];
-}else if (Randomslot4 === "Waterwalking") {
+}
+else if (Randomslot4 === "Waterwalking") {
   var Randomslot5 = SorcerySL4H[Math.floor(Math.random() * SorcerySL4H.length)];
-}else if (Randomslot4 === "Gathering Storm") {
+}
+else if (Randomslot4 === "Gathering Storm") {
   var Randomslot5 = SorcerySL4I[Math.floor(Math.random() * SorcerySL4I.length)];
-}else if (Randomslot4 === "Demolish") {
+}
+else if (Randomslot4 === "Demolish") {
   var Randomslot5 = ResolveSL4A[Math.floor(Math.random() * ResolveSL4A.length)];
-}else if (Randomslot4 === "Font of Life") {
+}
+else if (Randomslot4 === "Font of Life") {
   var Randomslot5 = ResolveSL4B[Math.floor(Math.random() * ResolveSL4B.length)];
-}else if (Randomslot4 === "Shield Bash") {
+}
+else if (Randomslot4 === "Shield Bash") {
   var Randomslot5 = ResolveSL4C[Math.floor(Math.random() * ResolveSL4C.length)];
-}else if (Randomslot4 === "Conditioning") {
+}
+else if (Randomslot4 === "Conditioning") {
   var Randomslot5 = ResolveSL4D[Math.floor(Math.random() * ResolveSL4D.length)];
-}else if (Randomslot4 === "Second Wind") {
+}
+else if (Randomslot4 === "Second Wind") {
   var Randomslot5 = ResolveSL4E[Math.floor(Math.random() * ResolveSL4E.length)];
-}else if (Randomslot4 === "Bone Plating") {
+}
+else if (Randomslot4 === "Bone Plating") {
   var Randomslot5 = ResolveSL4F[Math.floor(Math.random() * ResolveSL4F.length)];
-}else if (Randomslot4 === "Overgrowth") {
+}
+else if (Randomslot4 === "Overgrowth") {
   var Randomslot5 = ResolveSL4G[Math.floor(Math.random() * ResolveSL4G.length)];
-}else if (Randomslot4 === "Revitalize") {
+}
+else if (Randomslot4 === "Revitalize") {
   var Randomslot5 = ResolveSL4H[Math.floor(Math.random() * ResolveSL4H.length)];
-}else if (Randomslot4 === "Unflinching") {
+}
+else if (Randomslot4 === "Unflinching") {
   var Randomslot5 = ResolveSL4I[Math.floor(Math.random() * ResolveSL4I.length)];
-}else if (Randomslot4 === "Magical Footwear") {
+}
+else if (Randomslot4 === "Magical Footwear") {
   var Randomslot5 = InspirationSL4A[Math.floor(Math.random() * InspirationSL4A.length)];
-}else if (Randomslot4 === "Perfect Timing") {
+}
+else if (Randomslot4 === "Perfect Timing") {
   var Randomslot5 = InspirationSL4B[Math.floor(Math.random() * InspirationSL4B.length)];
-}else if (Randomslot4 === "Future’s Market") {
+}
+else if (Randomslot4 === "Future’s Market") {
   var Randomslot5 = InspirationSL4C[Math.floor(Math.random() * InspirationSL4C.length)];
-}else if (Randomslot4 === "Minion Dematerializer") {
+}
+else if (Randomslot4 === "Minion Dematerializer") {
   var Randomslot5 = InspirationSL4D[Math.floor(Math.random() * InspirationSL4D.length)];
-}else if (Randomslot4 === "Biscuit Delivery") {
+}
+else if (Randomslot4 === "Biscuit Delivery") {
   var Randomslot5 = InspirationSL4E[Math.floor(Math.random() * InspirationSL4E.length)];
-}else if (Randomslot4 === "Cosmic Insight") {
+}
+else if (Randomslot4 === "Cosmic Insight") {
   var Randomslot5 = InspirationSL4F[Math.floor(Math.random() * InspirationSL4F.length)];
-}else if (Randomslot4 === "Approach Velocity") {
+}
+else if (Randomslot4 === "Approach Velocity") {
   var Randomslot5 = InspirationSL4G[Math.floor(Math.random() * InspirationSL4G.length)];
-}else if (Randomslot4 === "Time Warp Tonic") {
+}
+else if (Randomslot4 === "Time Warp Tonic") {
   var Randomslot5 = InspirationSL4H[Math.floor(Math.random() * InspirationSL4H.length)];
 }
 
 //Champion you will get
 if (FirstChampionType === "Assassin") {
   var championGot = Assassin[Math.floor(Math.random() * Assassin.length)];
-}else if (FirstChampionType === "Fighter") {
+}
+else if (FirstChampionType === "Fighter") {
   var championGot = Fighter[Math.floor(Math.random() * Fighter.length)];
-}else if (FirstChampionType === "Marksman") {
+}
+else if (FirstChampionType === "Marksman") {
   var championGot = Marksman[Math.floor(Math.random() * Marksman.length)];
-}else if (FirstChampionType === "Support") {
+}
+else if (FirstChampionType === "Support") {
   var championGot = Support[Math.floor(Math.random() * Support.length)];
-}else if (FirstChampionType === "Tank") {
+}
+else if (FirstChampionType === "Tank") {
   var championGot = Tank[Math.floor(Math.random() * Tank.length)];
 }
 
