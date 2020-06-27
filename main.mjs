@@ -218,7 +218,7 @@ if (FirstChampionType === "Assassin") {
   var championGot = Tank[Math.floor(Math.random() * Tank.length)];
 }
 
-//Colors
+//Colors for console
 // Reset = "\x1b[0m"
 // Bright = "\x1b[1m"
 // Dim = "\x1b[2m"
