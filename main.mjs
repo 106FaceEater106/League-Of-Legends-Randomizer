@@ -18,7 +18,7 @@ import {Assassin, Fighter, Marksman, Support, Tank} from './Arrays/champions.js'
 import {champtype} from './Arrays/championType.js'
 import {miniSlot1, miniSlot2, miniSlot3} from './Arrays/minislot.js'
 import {items1} from './Arrays/items.js'
-import {SumSpell} from './Arrays/summerspells.js'
+import {SumSpell} from './Arrays/summonerspells.js'
 
 
 //Generating the first rune and champion
