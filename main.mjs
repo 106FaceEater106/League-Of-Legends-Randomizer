@@ -18,6 +18,8 @@ import {Assassin, Fighter, Marksman, Support, Tank} from './Arrays/champions.js'
 import {champtype} from './Arrays/championType.js'
 import {miniSlot1, miniSlot2, miniSlot3} from './Arrays/minislot.js'
 import {items1} from './Arrays/items.js'
+import {SumSpell} from './Arrays/summerspells.js'
+
 
 //Generating the first rune and champion
 const RandomRunes1 = runes0[Math.floor(Math.random() * runes0.length)];
@@ -31,6 +33,8 @@ const items3 = items1[Math.floor(Math.random() * items1.length)]
 const items4 = items1[Math.floor(Math.random() * items1.length)]
 const items5 = items1[Math.floor(Math.random() * items1.length)]
 const items6 = items1[Math.floor(Math.random() * items1.length)]
+const SummerSpells1 = SumSpell[Math.floor(Math.random() * SumSpell.length)]
+const SummerSpells2 = SumSpell[Math.floor(Math.random() * SumSpell.length)]
 
 //Rune for secondary
 if (RandomRunes1 === "Precision") {
@@ -270,5 +274,9 @@ console.log(`\x1b[31m\x1b[4mItem 3: ${items3}`)
 console.log(`\x1b[31m\x1b[4mItem 4: ${items4}`)
 console.log(`\x1b[31m\x1b[4mItem 5: ${items5}`)
 console.log(`\x1b[31m\x1b[4mItem 6: ${items6}`)
+console.log('\x1b[32mYour Summoner Spells:')
+console.log(`\x1b[31m\x1b[4mSpell 1: ${SummerSpells1}`)
+console.log(`\x1b[31m\x1b[4mSpell 2: ${SummerSpells2}`)
+
 //Resets console back to normal
 console.log('\x1b[0m');
