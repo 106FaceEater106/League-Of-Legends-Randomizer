@@ -2,4 +2,4 @@ export var PrecisionKS = ["Press the Attack","Lethal Tempo","Fleet Footwork","Co
 export var DominationKS = ["Electrocute","Predator","Dark Harvest","Hail of Blades",]
 export var SorceryKS = ["Summon Aery","Arcane Comet","Phase Rush","Your choices of Sorcery keystone"]
 export var ResolveKS = ["Grasp of the Undying","Aftershock","Guardian","Your choices of Resolve keystone"]
-export var InspirationKS = ["Glacial Augment","Kleptomancy","Unsealed Spellbook","Your choices of Inspiration keystone"]
+export var InspirationKS = ["Glacial Augment","glacial augment","Unsealed Spellbook","Your choices of Inspiration keystone"]
