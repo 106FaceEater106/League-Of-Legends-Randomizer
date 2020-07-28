@@ -319,7 +319,7 @@ else if (FirstChampionType === "Tank") {
 
 
 // Logging everything for the player
-console.log('\x1b[36mOriginal creator - Scott - twitch.tv/LonlyGamerX');
+console.log('\x1b[36mOriginal creator - LonlyGamerX - twitch.tv/LonlyGamerX');
 console.log('');
 console.log(`\x1b[32mChampion type: \x1b[31m\x1b[4m${FirstChampionType}\x1b[0m`)
 console.log(`\x1b[32mChampion: \x1b[31m\x1b[4m${championGot}\x1b[0m`)
