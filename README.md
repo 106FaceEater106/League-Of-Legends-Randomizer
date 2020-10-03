@@ -1,4 +1,7 @@
 # League Of Legends Randomizer
+
+Note: As of season 11 this will be out dated and unmaintend!!!
+
 How to use it.
 
 Repl.it:
